@@ -22,7 +22,6 @@ executable haskell-love-quantum-love-linear-story
   other-modules:
       Basics
       MonadicApi
-      SimpleApi
       Paths_haskell_love_quantum_love_linear_story
   hs-source-dirs:
       src
