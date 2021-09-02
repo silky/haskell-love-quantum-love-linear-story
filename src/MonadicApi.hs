@@ -90,7 +90,7 @@ myLinearCirc a b =
     (a, b) <- cnot a b
     L.return (a, b)
 
--- Teleportation protocol from Quipper, implemented linarly. See page 5 of the
+-- Teleportation protocol from Quipper, implemented linearly. See page 5 of the
 -- paper.
 
 -- | Alice wants to teleport qubit 'q' to Bob. This function yields classical
