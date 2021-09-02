@@ -1,0 +1,22 @@
+name:                haskell-love-quantum-love-linear-story
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/silky/haskell-love-quantum-love-linear-story#readme
+license:             BSD3
+author:              Noon van der Silk
+maintainer:          noonsilk+-github@gmail.com
+copyright:           2021 Noon van der Silk
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - linear-base
+  - polysemy
+
+executables:
+  haskell-love-quantum-love-linear-story:
+    source-dirs:      src
+    main:             Main.hs
