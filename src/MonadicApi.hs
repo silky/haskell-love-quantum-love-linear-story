@@ -8,7 +8,7 @@ import           Prelude (undefined)
 import qualified Prelude
 import           Prelude.Linear
 
-import           Data.Unrestricted.Linear  (Ur(..))
+import           Data.Unrestricted.Linear  (Ur (..))
 import           System.IO.Resource        (RIO)
 import qualified Control.Functor.Linear    as L
 
