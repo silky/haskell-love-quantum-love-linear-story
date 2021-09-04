@@ -21,6 +21,7 @@ executable haskell-love-quantum-love-linear-story
   main-is: Main.hs
   other-modules:
       Basics
+      LiveHackingExamples
       MonadicApi
       Paths_haskell_love_quantum_love_linear_story
   hs-source-dirs:
