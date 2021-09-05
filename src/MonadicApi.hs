@@ -69,13 +69,13 @@ cnot = c x
 -- | Build the Bell state: (1/sqrt2) ( |00> + |11> )
 bellState :: RIO (Qubit, Qubit)
 bellState = L.do
-  q1 <- allocate Zero
-  q2 <- allocate Zero
+  a <- allocate Zero
+  b <- allocate Zero
 
-  q1 <- h q1
-  (q1, q2) <- cnot q1 q2
+  a <- h a
+  (a, b) <- cnot a b
 
-  L.return (q1, q2)
+  L.return (a, b)
 
 -- Examples from the Quipper paper: <https://arxiv.org/pdf/1304.5485.pdf>
 
