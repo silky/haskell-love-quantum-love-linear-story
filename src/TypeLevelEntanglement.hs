@@ -70,16 +70,16 @@ reduceEntanglement = undefined
 -- There are still a few problems:
 --
 -- * When 'e' is zero, we should learn that the qubits are seperable. I.e.
---   we should have the following type equality
+--   we should have the following type equality:
 --
 --    Entangled' 0 '[Qubit, Qubit, ...] ~ Qubit :*: Qubit :*: ...
 --
 -- * 'e' is some measure of 'entanglement'; but which one? There are options:
 --    <https://en.wikipedia.org/wiki/Quantum_entanglement#Entanglement_measures>
 --
--- * A single 'e' is almost definitely not enough. In a list of 10 qubits, it
---   may be that two are entangled and the rest are not. How to represent
---   this?
+-- * A single 'e' is almost definitely not enough; at least in this
+--   formulation. In a list of 10 qubits, it may be that two are entangled and
+--   the rest are not. How to represent this?
 
 -- Related ideas:
 --  * Weak measurement: <https://en.wikipedia.org/wiki/Weak_measurement>
