@@ -78,7 +78,7 @@ reduceEntanglement = undefined
 --    <https://en.wikipedia.org/wiki/Quantum_entanglement#Entanglement_measures>
 --
 -- * A single 'e' is almost definitely not enough. In a list of 10 qubits, it
---   may be that two are entangled and the rest are not. How  to represent
+--   may be that two are entangled and the rest are not. How to represent
 --   this?
 
 -- Related ideas:
