@@ -2,11 +2,9 @@
 {-# language QualifiedDo #-}
 {-# OPTIONS_GHC -fno-defer-type-errors #-}
 
-module LiveHackingExamples where
+module Ex2 where
 
 import qualified Prelude
-import           Prelude.Linear
-import           Data.Unrestricted.Linear  (Ur (..))
 import           System.IO.Resource        (RIO)
 import qualified Control.Functor.Linear    as L
 
