@@ -17,10 +17,38 @@ ex1 :: RIO (Qubit)
 ex1 = L.do
   a <- allocate Zero
   -- Bad:
-  -- h a
+  -- _ <- h a
   -- Good:
   -- a <- h a
   L.return a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 -- Example 2. We can't allocate a qubit and forget about it.
@@ -32,6 +60,35 @@ ex2 = L.do
   -- Bad:
   -- b <- allocate Zero
   L.return a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 -- Example 3. We can't get the parameters to `cnot` to be wrong.
@@ -47,3 +104,13 @@ ex3 = L.do
   (a, b) <- cnot a b
 
   L.return (a, b)
+
+
+
+
+
+
+
+
+
+
