@@ -1,6 +1,6 @@
-# haskell-love-quantum-love-linear-story
+# Quantum computing and Haskell: A linear love story?
 
-## A talk at [haskell.love](https://haskell.love/) 2021
+## A talk for [haskell.love](https://haskell.love/) 2021
 
 - [Talk slides](https://docs.google.com/presentation/d/17jywkbscYkxfsuovCtEPn5giO3DR_SCeFdiLwng5V68/edit?usp=sharing)
 
