@@ -1,5 +1,12 @@
 # haskell-love-quantum-love-linear-story
 
+## A talk at [haskell.love](https://haskell.love/) 2021
+
+- [Talk slides](https://docs.google.com/presentation/d/17jywkbscYkxfsuovCtEPn5giO3DR_SCeFdiLwng5V68/edit?usp=sharing)
+
+
+## Code
+
 Build with [`stack`](https://docs.haskellstack.org/en/stable/README/).
 
 ```
@@ -12,4 +19,5 @@ or investigate with the repl
 stack repl
 ```
 
-There's nothing to run; this is only demonstrating type-level ideas.
+There's nothing to run; this is only demonstrating type-level ideas (it just
+needs to compile!)
