@@ -17,10 +17,12 @@ ex2 = L.do
   b <- allocate Zero
 
   a <- h a
-  -- Bad:
-  -- (a, b) <- cnot a a
+  
   -- Good:
   -- (a, b) <- cnot a b
+  
+  -- Bad:
+  -- (a, b) <- cnot a a
 
   L.return (a, b)
 
