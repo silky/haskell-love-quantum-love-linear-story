@@ -19,7 +19,7 @@ ex1 = L.do
 
   -- Bad:
   -- b <- allocate Zero
-  --
+
   -- Good again:
   -- b <- allocate Zero
   -- shutdown b
