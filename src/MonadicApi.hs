@@ -37,7 +37,9 @@ allocate = undefined
 
 -- | Shutdown a specific qubit.
 shutdown :: Qubit %1 -> RIO ()
-shutdown = undefined
+shutdown q = L.do
+  consume L.<$> measure_ q
+  L.return ()
 
 -- | Hadamard gate.
 h :: Qubit %1 -> RIO Qubit
@@ -80,7 +82,7 @@ bellState = L.do
 -- Examples from the Quipper paper: <https://arxiv.org/pdf/1304.5485.pdf>
 
 -- | Comparision example from the 'Quipper' paper; now is a compilation error.
-myLinearCirc :: Qubit %1 
+myLinearCirc :: Qubit %1
              -> Qubit %1
              -> RIO (Qubit, Qubit)
 myLinearCirc a b =
