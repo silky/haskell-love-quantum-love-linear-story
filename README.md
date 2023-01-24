@@ -2,7 +2,7 @@
 
 ## A talk for [haskell.love](https://haskell.love/) 2021
 
-- [YouTube Video](https://www.youtube.com/watch?v=dItrvZutuso)
+- [YouTube video](https://www.youtube.com/watch?v=dItrvZutuso)
 - [Talk slides](https://docs.google.com/presentation/d/17jywkbscYkxfsuovCtEPn5giO3DR_SCeFdiLwng5V68/edit?usp=sharing)
 
 
